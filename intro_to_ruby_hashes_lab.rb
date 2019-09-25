@@ -34,9 +34,9 @@ end
 def update_counting_hash(hash, key)
    
   if key
-    key += 
+    key += 1
   else
-    key = 
+    key = 10
   end 
 end
 
