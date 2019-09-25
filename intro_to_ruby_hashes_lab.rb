@@ -47,19 +47,17 @@ end
 
 
  def update_counting_hash(hash, key)
-   {
-     key  
-   }
+ 
    
    
    
    
-#   if key    # or maybe first access the hash and then [key]?
-#     key += 1
-#   else
-#     key = 1
-#   end 
-# end
+  if key    # or maybe first access the hash and then [key]?
+    key += 1
+  else
+    key = 1
+  end 
+end
 
 
 
