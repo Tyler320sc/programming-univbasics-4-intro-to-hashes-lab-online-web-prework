@@ -31,15 +31,15 @@ def read_from_hash(hash, key)
   hash[key] 
 end 
 
-def update_counting_hash(hash, key)
+# def update_counting_hash(hash, key)
    
-   if key
-    key += 1
-  else
-    key = 1
-  end 
-end
-end
+#   if key
+#     key += 1
+#   else
+#     key = 1
+#   end 
+# end
+# end
 
 
 
