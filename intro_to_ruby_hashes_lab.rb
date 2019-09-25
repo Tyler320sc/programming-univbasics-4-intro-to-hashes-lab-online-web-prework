@@ -40,18 +40,12 @@ def update_counting_hash(hash, key)
   end 
 end
 
-#hash[key] = 1             hash[key] += 1
 
 
-# def update_counting_hash(hash, key)
- 
-#   if hash[key]  # or maybe first access the hash and then [key]
-#     key += 1
-#   else
-#     key = 1
-#   end 
-# end
 
+
+
+#[key] = 1             #hash[key] += 1
 
 
 
