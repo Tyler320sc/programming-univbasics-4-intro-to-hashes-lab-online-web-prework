@@ -46,7 +46,13 @@ end
 
 
 
-# def update_counting_hash(hash, key)
+ def update_counting_hash(hash, key)
+   {
+     hash[key]  
+   }
+   
+   
+   
    
 #   if key # or maybe first access the hash and then [key]?
 #     key += 1
